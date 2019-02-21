@@ -1,3 +1,12 @@
+@import 'variables';
+@import 'base';
+@import 'header-wrapper';
+@import 'signin';
+@import 'signup';
+
+
+
+
 html {
     font-size: 62.5%; // 1rem is 10px
 }
@@ -19,10 +28,4 @@ body {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     -webkit-tap-highlight-color: transparent;
-}
-
-.app {
-    margin-top: 2rem;
-    display: grid;
-    justify-items: center;
 }
