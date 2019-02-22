@@ -2,3 +2,15 @@
     grid-row: content-s/content-e;
     grid-column: content-s/content-e;
 }
+
+.sign-in-form {
+    &__title {
+        justify-items: center;
+    }
+    &__email {
+        width: 100%;
+    }
+    &__password {
+
+    }
+}
