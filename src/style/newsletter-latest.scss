@@ -18,15 +18,15 @@
     &__image {
         justify-self: center;
         align-self: center;
+    }
+
+    &__title {
+        grid-row: s/m;
         color: white;
         font-size: 4rem;
         font-weight: 500;
         line-height: 5rem;
         text-align: center;
-    }
-
-    &__title {
-        grid-row: s/m;
     }
     &__image {
         grid-row: s/m;
@@ -39,5 +39,12 @@
             line-height: 2rem;
             font-size: 1.6rem;
         }
+    }
+
+    &__button {
+        grid-row: s/m;
+        grid-column: s/e;
+        justify-self: end;
+        align-self: end;
     }
 }
