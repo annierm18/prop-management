@@ -7,7 +7,8 @@
     grid-template-columns: [s] 1fr [e];
 
 
-
+    border: 1px solid $color-gray-E6;
+    border-radius: .5rem;
 
     & > * {
         grid-column: s/e;
@@ -17,6 +18,11 @@
     &__image {
         justify-self: center;
         align-self: center;
+        color: white;
+        font-size: 4rem;
+        font-weight: 500;
+        line-height: 5rem;
+        text-align: center;
     }
 
     &__title {
@@ -29,7 +35,9 @@
     &__body {
         grid-row: m/e;
         p {
-
+            margin: 6.3rem 6.05rem;
+            line-height: 2rem;
+            font-size: 1.6rem;
         }
     }
 }
