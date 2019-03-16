@@ -11,11 +11,11 @@ class NewNewsletter extends Component {
         //     console.log('trying to submit to backend.');
         // }
         this.props.history.push('/dashboard');
-    }
+    };
 
     onCancel = () => {
         this.props.history.push('/dashboard');
-    }
+    };
 
     render() {
         return (
@@ -23,10 +23,10 @@ class NewNewsletter extends Component {
                 <NewNewsletterForm 
                     onCancel={() => this.onCancel()} 
                     onSubmit={(event) => this.onSubmit(event)}
-                    title='New Newsletter'
+                    formTitle='New Newsletter'
                 />
             </div>
-        )
+        );
     }
 }
 
