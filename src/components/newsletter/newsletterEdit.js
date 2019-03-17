@@ -39,7 +39,7 @@ class EditNewsletter extends Component {
 function mapStateToProps(state) {
     const { newsletterToEdit } = state.newsletters;
     return {
-        newslettersToEdit
+        newsletterToEdit
     }
 }
 
